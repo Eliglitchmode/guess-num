@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 100)
+start = input('Please define the value of starting point:')
+start = int(start)
+end = input('Please define the value of ending point:')
+end = int(end)
+r = random.randint(start, end)
 count = 0 # counting times of guess
 while True:
 	count += 1  # count = count + 1
